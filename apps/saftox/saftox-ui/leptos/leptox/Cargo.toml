@@ -1,0 +1,7 @@
+[workspace]
+members = ["crates/leptox", "crates/leptox_theme"]
+default-members = ["crates/leptox"]
+exclude = ["examples", "tests"]
+resolver = "2"
+
+[workspace.dependencies]
